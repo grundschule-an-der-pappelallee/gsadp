@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grundschule An der Pappelallee - Lippstadt</title>
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+line-height: 1.6;
+color: #333;
+background-color: #f4f7f6;
+}
+header {
+background: linear-gradient(135deg, #1b4332, #2d6a4f);
+color: white;
+padding: 2rem 1rem;
+text-align: center;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+header h1 {
+font-size: 2.2rem;
+margin-bottom: 0.5rem;
+}
+header p {
+font-size: 1.1rem;
+opacity: 0.9;
+}
+nav {
+background-color: #40916c;
+display: flex;
+justify-content: center;
+gap: 1.5rem;
+padding: 0.75rem;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+nav a {
+color: white;
+text-decoration: none;
+font-weight: 600;
+transition: color 0.2s;
+}
+nav a:hover {
+color: #d8f3dc;
+}
+.hero {
+background-color: #b7e4c7;
+text-align: center;
+padding: 3rem 1rem;
+border-bottom: 4px solid #52b788;
+}
+.hero h2 {
+color: #1b4332;
+font-size: 1.8rem;
+margin-bottom: 1rem;
+}
+.hero p {
+max-width: 600px;
+margin: 0 auto 1.5rem auto;
+font-size: 1.1rem;
+}
+.btn {
+display: inline-block;
+background-color: #1b4332;
+color: white;
+padding: 0.75rem 1.5rem;
+border-radius: 25px;
+text-decoration: none;
+font-weight: bold;
+transition: background 0.3s;
+}
+.btn:hover {
+background-color: #2d6a4f;
+}
+.container {
+max-width: 1000px;
+margin: 2rem auto;
+padding: 0 1rem;
+}
+.info-card {
+background: white;
+border-radius: 12px;
+padding: 1.5rem;
+margin-bottom: 2rem;
+box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+border-left: 6px solid #40916c;
+}
+.info-card h3 {
+color: #1b4332;
+margin-bottom: 0.75rem;
+}
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 1.5rem;
+margin-bottom: 2rem;
+}
+.card {
+background: white;
+border-radius: 12px;
+padding: 1.5rem;
+box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+text-align: center;
+}
+.card h3 {
+color: #2d6a4f;
+margin-bottom: 0.5rem;
+}
+footer {
+background-color: #1b4332;
+color: white;
+text-align: center;
+padding: 1.5rem;
+margin-top: 3rem;
+font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Grundschule An der Pappelallee</h1>
+<p>Lippstadt</p>
+</header>
+
+<nav>
+<a href="#ueber-uns">Über uns</a>
+<a href="#schulleben">Schulleben</a>
+<a href="#termine">Termine</a>
+<a href="#kontakt">Kontakt</a>
+</nav>
+
+<section class="hero">
+<h2>Gemeinsam lernen, lachen & wachsen</h2>
+<p>Willkommen auf der Website der Grundschule An der Pappelallee in Lippstadt. Wir begleiten Kinder individuell und mit Freude auf ihrem Lernweg.</p>
+<a href="#kontakt" class="btn">Kontakt aufnehmen</a>
+</section>
+
+<div class="container">
+
+<section id="kontakt" class="info-card">
+<h3>📍 Adresse & Standort</h3>
+<p><strong>Grundschule An der Pappelallee</strong></p>
+<p>Ulmenstraße 35, 59557 Lippstadt</p>
+<p>Telefon: 02941 / 21760 | E-Mail: GS-Pappelallee@t-online.de</p>
+</section>
+
+<h2 style="text-align: center; margin-bottom: 1.5rem; color: #1b4332;">Unsere Schule</h2>
+
+<section id="schulleben" class="grid">
+<div class="card">
+<h3>Moderne Pädagogik</h3>
+<p>Individuelle Förderung und vielfältige Lernangebote stehen bei uns an erster Stelle.</p>
+</div>
+<div class="card">
+<h3>OGS & Betreuung</h3>
+<p>Verlässliche Nachmittagsbetreuung mit Hausaufgabenhilfe, Spiel und kreativen AGs.</p>
+</div>
+<div class="card">
+<h3>Bewegung & Natur</h3>
+<p>Großzügiger Schulhof, eigene Sporthalle und Aktionen im Grünen rund um Lippstadt.</p>
+</div>
+</section>
+
+<section id="termine" class="info-card">
+<h3>📅 Aktuelle Termine</h3>
+<ul>
+<li><strong>Herbstfest:</strong> Oktober 2026 – Gemeinsames Basteln und Beisammensein auf dem Schulhof.</li>
+<li><strong>Altstadtlauf Lippstadt:</strong> Teilnahme unserer Lauf-AG.</li>
+</ul>
+</section>
+
+</div>
+
+<footer>
+<p>Grundschule An der Pappelallee – Lippstadt<br>Ulmenstraße 35, 59557 Lippstadt | Tel: 02941 / 21760</p>
+<p style="margin-top: 0.5rem; opacity: 0.7;">© 2026 Alle Rechte vorbehalten.</p>
+</footer>
+
+</body>
+</html>
